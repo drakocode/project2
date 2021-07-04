@@ -1,0 +1,63 @@
+/* 
+
+    BODY
+
+*/
+.bodyH1:hover{
+    text-decoration: none;
+    animation: colorChange 11s linear infinite;
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 255, 0);
+    border-radius: 5px;
+    padding: 4%;
+}
+
+/* 
+
+    FORM
+
+*/
+/* TITULO */
+.formBxH1:hover{
+    color: #FFFE00;
+    background-color: #7B00FF;
+    border-radius: 5px;
+}
+
+/* INPUTS */
+.inpuT:hover{
+    color: #FFFE00;
+    background-color: #7D00FF;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.confirmSenha:hover{
+    color: #FFFE00;
+    background-color: #7D00FF;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* BOTOES */
+.btn:hover{
+    border: none; 
+    color: #7D00FF;
+    background-color: #FFFE19;
+    font-weight: bold;
+}
+
+/* 
+
+    HELICE
+
+*/
+.rotating:hover{
+    animation: rotating 0.33s linear infinite;
+}
+.heliceD:hover{
+    animation: colorChange 1s linear infinite;
+}
+.kids{
+    animation: circlE 1s linear infinite;
+
+}

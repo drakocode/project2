@@ -1,0 +1,145 @@
+@keyframes slider{
+    0% {margin-right: -100%;}
+    100%{margin-right: 0px;}   
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes colorChange{
+    0%{background-color: #0D34FC;}
+    1%{background-color: #00DFE6;}
+    2%{background-color: #00FF2C;}
+    3%{background-color: #D5F51D;}
+    4%{background-color: #E11DF5;}
+    5%{background-color: #FF1B00;}
+    6%{background-color: #E68000;}
+    7%{background-color: #FCDD0D;}
+    8%{background-color: #66F20C;}
+    9%{background-color: #D48533;}
+    10%{background-color: #4B3DD1;}
+    11%{background-color: #A50CF2;}
+    12%{background-color: #0D34FC;}
+    13%{background-color: #00DFE6;}
+    14%{background-color: #00FF2C;}
+    15%{background-color: #D5F51D;}
+    16%{background-color: #E11DF5;}
+    17%{background-color: #FF1B00;}
+    18%{background-color: #E68000;}
+    19%{background-color: #FCDD0D;}
+    20%{background-color: #66F20C;}
+    21%{background-color: #D48533;}
+    22%{background-color: #4B3DD1;}
+    23%{background-color: #A50CF2;}
+    24%{background-color: #0D34FC;}
+    25%{background-color: #00DFE6;}
+    26%{background-color: #00FF2C;}
+    27%{background-color: #D5F51D;}
+    28%{background-color: #E11DF5;}
+    29%{background-color: #FF1B00;}
+    30%{background-color: #E68000;}
+    31%{background-color: #FCDD0D;}
+    32%{background-color: #66F20C;}
+    33%{background-color: #D48533;}
+    34%{background-color: #4B3DD1;}
+    35%{background-color: #A50CF2;}
+    36%{background-color: #0D34FC;}
+    37%{background-color: #00DFE6;}
+    38%{background-color: #00FF2C;}
+    39%{background-color: #D5F51D;}
+    40%{background-color: #E11DF5;}
+    41%{background-color: #FF1B00;}
+    42%{background-color: #E68000;}
+    43%{background-color: #FCDD0D;}
+    44%{background-color: #66F20C;}
+    45%{background-color: #D48533;}
+    46%{background-color: #E11DF5;}
+    47%{background-color: #FF1B00;}
+    48%{background-color: #D5F51D;}
+    49%{background-color: #00FF2C;}
+    50%{background-color: #4B3DD1;}
+    51%{background-color: #00DFE6;}
+    52%{background-color: #00FF2C;}
+    53%{background-color: #D5F51D;}
+    54%{background-color: #E11DF5;}
+    55%{background-color: #FF1B00;}
+    56%{background-color: #E68000;}
+    57%{background-color: #FCDD0D;}
+    58%{background-color: #66F20C;}
+    59%{background-color: #D48533;}
+    60%{background-color: #4B3DD1;}
+    61%{background-color: #A50CF2;}
+    62%{background-color: #0D34FC;}
+    63%{background-color: #00DFE6;}
+    64%{background-color: #00FF2C;}
+    65%{background-color: #D5F51D;}
+    66%{background-color: #E11DF5;}
+    67%{background-color: #FF1B00;}
+    68%{background-color: #E68000;}
+    69%{background-color: #FCDD0D;}
+    70%{background-color: #66F20C;}
+    71%{background-color: #D48533;}
+    72%{background-color: #4B3DD1;}
+    73%{background-color: #A50CF2;}
+    74%{background-color: #0D34FC;}
+    75%{background-color: #00DFE6;}
+    76%{background-color: #00FF2C;}
+    77%{background-color: #D5F51D;}
+    78%{background-color: #E11DF5;}
+    79%{background-color: #FF1B00;}
+    80%{background-color: #E68000;}
+    81%{background-color: #FCDD0D;}
+    82%{background-color: #66F20C;}
+    83%{background-color: #D48533;}
+    84%{background-color: #4B3DD1;}
+    85%{background-color: #A50CF2;}
+    86%{background-color: #0D34FC;}
+    87%{background-color: #00DFE6;}
+    88%{background-color: #00FF2C;}
+    89%{background-color: #D5F51D;}
+    90%{background-color: #E11DF5;}
+    91%{background-color: #FF1B00;}
+    92%{background-color: #E68000;}
+    93%{background-color: #FCDD0D;}
+    94%{background-color: #66F20C;}
+    95%{background-color: #D48533;}
+    96%{background-color: #E11DF5;}
+    97%{background-color: #FF1B00;}
+    98%{background-color: #D5F51D;}
+    99%{background-color: #00FF2C;}
+    100%{background-color: #4B3DD1;}
+}
+
+@keyframes colorWarning {
+    0%{background-color: red;}
+    25%{background-color: #800501;}
+    50%{background-color: red;}
+    75%{background-color: #800501;}
+    100%{background-color: #FF0B03;}
+}
+
+@keyframes jump{
+    0% { opacity: 0%;}
+    25% { transform: translateY(-20px); opacity: 100%;}
+    100% {opacity: 0%;}  
+}
+
+@keyframes circlE{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+}

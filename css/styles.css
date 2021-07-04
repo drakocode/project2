@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+    BODY
+
+*/
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.bodyH1{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 666%;
+    transition: 1.11s ease-in-out;
+    font-family: 'Qahiri', sans-serif;
+}
+
+/* 
+
+    FORM
+    
+*/
+.formBx{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    max-width: 400px;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 3%;
+    display: block;
+    animation: slider 2s linear;
+    
+
+}
+.formBxH1{
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 222%;
+    color: #5800B3;
+    transition: 0.8s ease-in-out;
+}
+.formContent{
+    text-align: center;
+}
+.semConta{
+    margin-bottom: 8%;
+}
+/* inputs */
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    text-align: center;
+    display: inline;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #B3B300 ;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 10px;
+    transition: 0.8s ease-in-out;
+}
+input.confirmSenha[type='password']{
+    margin-left: 13.5%;
+    transition: 0.8s;
+}
+
+
+/* 
+
+    BOTOES
+
+*/
+.btn{
+    margin: 1%;
+    padding: 12px 30px;
+    border:1px solid;
+    border-radius: 5px;
+    background: none;
+    background-color: #5800B3;
+    color: #FFFE00;
+    transition: all 0.9s ease-in-out;
+}
+
+/* 
+
+    EXTRA FEATURES
+
+*/
+.aviso{
+    text-align: center;
+    background-color: red;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 4%;
+    margin: 44% 0px 44%;
+    animation: colorWarning 2s linear infinite;
+}
+.heliceD{
+    display: inline-block;
+    width: 100%;
+}
+.shrek{
+    max-width: 333px;
+    animation: jump 2s linear infinite;
+
+}
+.rotating{
+    max-width: 666px;
+    margin: 22px auto;
+}
+.kids{
+    margin-bottom: 33%;
+    max-width: 333px;
+}
