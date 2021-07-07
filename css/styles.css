@@ -104,7 +104,7 @@ input.confirmSenha[type='password']{
     margin: 44% 0px 44%;
     animation: colorWarning 2s linear infinite;
 }
-.heliceD{
+.extraF{
     display: inline-block;
     width: 100%;
 }
@@ -113,7 +113,7 @@ input.confirmSenha[type='password']{
     animation: jump 2s linear infinite;
 
 }
-.rotating{
+.dog{
     max-width: 666px;
     margin: 22px auto;
 }

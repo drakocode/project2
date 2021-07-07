@@ -51,10 +51,10 @@
     HELICE
 
 */
-.rotating:hover{
+.dog:hover{
     animation: rotating 0.33s linear infinite;
 }
-.heliceD:hover{
+.extraF:hover{
     animation: colorChange 1s linear infinite;
 }
 .kids{
